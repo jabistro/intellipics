@@ -9,7 +9,9 @@ const App = () => (
     <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
       <Link to="/">
         <img src={aicamera} alt="aicamera" className="w-28 object-contain" />
-        IntelliPics
+        <h1 className="font-extrabold text-[#222328] text-[26px]">
+          IntelliPics
+        </h1>
       </Link>
 
       <Link
